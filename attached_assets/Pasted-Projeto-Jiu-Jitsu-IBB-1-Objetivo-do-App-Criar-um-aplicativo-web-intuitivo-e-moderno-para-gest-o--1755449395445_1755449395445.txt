@@ -1,0 +1,140 @@
+Projeto: Jiu-Jitsu IBB
+
+1. Objetivo do App
+Criar um aplicativo web, intuitivo e moderno para gestão de aulas de Jiu-Jitsu.
+
+2. Funcionalidades:
+
+a. Home:
+Logo e nome da academia
+Quem somos: O Jiu-Jitsu IBB nasceu da parceria da Igreja Batista do Bacacheri (IBB) com o projeto Jiu-Jitsu Para Todos da Gracie Barra Curitiba.
+Nossa missão é oferecer apoio a crianças e jovens em situação de vulnerabilidade social, promovendo inclusão, disciplina e oportunidades por meio do Jiu-Jitsu.
+Botões de acesso: Área do aluno(a) e Área do Admin;
+Doações e Ofertas: Dados de chave pix para copiar e colar
+b. Área do Aluno(a):
+Para acessar a área do aluno é necessário fazer login com email e senha.
+Ter opção de “Recuperar a senha”;
+Após acessar a área do aluno:
+Perfil: O aluno conseguirá visualizar o cadastro gerado pelo admin, contendo: nome,  whatsapp, email, senha de acesso, turma, faixa e grau.
+Check-in: O botão de check-in registrará a presença, se dentro da área de geolocalização registrada, não permitir mais de um check in por dia, não permitir check in fora da distância de 10 metros.
+Histórico de participação em aulas :
+Calendário com horários da turma;
+Histórico de presença registrada.
+Grupo familiar: Se o cadastro for de aluno maior de 18 anos, poderá vincular o cadastro dos dependentes e também fazer o check-in deles no mesmo usuário, também vinculando a geolocalização. Se o cadastro for de um aluno de 17 anos ou menor, não deverá aparecer o grupo familiar nem a opção de incluir dependentes.
+Botão Sair/deslogar
+
+c. Área do Admin:
+Para acessar a área do admin é necessário fazer login com email e senha.
+Ter opção de “Recuperar a senha”;
+Ter opção de “Solicitar acesso”, nesta opção abrir os campos abaixo:
+Nome completo;
+Whatsapp, padrão (ddd) 00000-0000.
+Função no projeto: (Se Professor ou Administrativo)
+Email:
+Senha:
+Cadastros de admins requerem aprovação do coordenador, sendo assim, aparecerá no painel do coordenador, na área de pendência, com a opção de aceite ou rejeição.
+
+
+Gerar o acesso coordenador:
+Nome: Hayanny Câmara
+Whatsapp: (41) 98460-8282
+Data de nascimento:
+Função: Administrativo
+Email: jiujitsuibbadm@gmail.com
+Senha: 25@jiu
+
+database pass: Minhavida32@@
+Após logar na área do “Professor”, terá as opções abaixo.
+Dashboard: (Ao clicar em cada card, abre a listagem detalhada)
+3 cards do total de alunos de cada turma, sendo que no 1º card aparecerá o total de alunos da turma KIDS, no 2º card aparecerá o total de aluno da turma FEMININA e no 3º card aparecerá o total de alunos da turma MISTA.
+3 cards dos checkin do dia de cada turma, sendo que no 1º card aparecerá o total de checkins do dia da turma KIDS, no 2º card aparecerá o total de checkins do dia da turma FEMININA e no 3º card aparecerá o total de checkins do dia da turma MISTA.
+Ao clicar no card com o total de cada turma deve puxar a listagem de todos alunos cadastrados naquela turma, funcionando como um filtro. 
+3 cards dos aniversariantes do mês de cada turma, sendo que no 1º card aparecerá os aniversariantes da turma KIDS, no 2º card aparecerá os aniversariantes da turma FEMININA e no 3º card aparecerá os aniversariantes da turma MISTA.
+Mais relatórios:
+- Filtros por turma
+- Filtros por faixa e grau
+- Filtros por período (hoje, semana, mês, personalizado)
+- Visualização detalhada dos dados
+- Aniversariantes do mês. (Na última aula de cada mês notificar o professor da turma quem são os aniversariantes do mês).
+Agenda: Poder alimentar agenda ou calendário com eventos e programações de aula, férias, recessos e exame de faixa. Com opção de inclusão, edição e exclusão.
+Grau: Ao clicar neste botão aparecerá uma lista, separada por turma, com os alunos que já completaram a quantidade x de aula para recebimento do grau. Esta quantidade será estipulada diferente para cada faixa. Apenas para os alunos que tiverem a opção “Receber Grau” selecionada no cadastro do aluno.
+
+
+Após logar na área do “Administrativo”, terá as opções abaixo.
+Dashboard: (Ao clicar em cada card, abre a listagem detalhada)
+3 cards do total de alunos de cada turma, sendo que no 1º card aparecerá o total de alunos da turma KIDS, no 2º card aparecerá o total de aluno da turma FEMININA e no 3º card aparecerá o total de alunos da turma MISTA.
+3 cards dos checkin do dia de cada turma, sendo que no 1º card aparecerá o total de checkins do dia da turma KIDS, no 2º card aparecerá o total de checkins do dia da turma FEMININA e no 3º card aparecerá o total de checkins do dia da turma MISTA.
+Ao clicar no card com o total de cada turma deve puxar a listagem de todos alunos cadastrados naquela turma, funcionando como um filtro. 
+3 cards dos aniversariantes do mês de cada turma, sendo que no 1º card aparecerá os aniversariantes da turma KIDS, no 2º card aparecerá os aniversariantes da turma FEMININA e no 3º card aparecerá os aniversariantes da turma MISTA.
+Mais relatórios:
+- Filtros por turma
+- Filtros por faixa e grau
+- Filtros por período (hoje, semana, mês, personalizado)
+- Visualização detalhada dos dados
+- Aniversariantes do mês. (Na última aula de cada mês notificar o professor da turma quem são os aniversariantes do mês).
+Alunos: 
+- Cadastrar, 
+- editar 
+- excluir
+Para cadastrar o aluno, preencher os seguintes dados:
+- Nome completo;
+- Whatsapp, padrão (ddd) 00000-0000.
+- Data de nascimento: 
+- Turma:
+- Faixa:
+- Grau:
+- Login: Nome.sobrenome
+- Senha: Aluno123 (Senha padrão)
+no primeiro acesso do aluno, com a senha padrão, notificar via pop-up que é necessário redefinir a senha e embaixo a opção para redefinição.
+
+
+Agenda: Poder alimentar agenda ou calendário com eventos e programações de aula, férias, recessos e exame de faixa. Com opção de inclusão, edição e exclusão.
+Grau: Ao clicar neste botão aparecerá uma lista, separada por turma, com os alunos que já completaram a quantidade x de aula para recebimento do grau. Esta quantidade será estipulada diferente para cada faixa. Apenas para os alunos que tiverem a opção “Receber Grau” selecionada no cadastro do aluno.
+Configurações:
+- Grau: Poder configurar notificações de grau e graduação, quando o aluno, que não treina em outra academia, completar x aulas, chegará uma notificação para o responsável geral do projeto, ex. “Fulano completou x aulas”. Sendo possível configurar quantidades diferentes para cada cor de faixa.
+- Turmas e Horários: (Kids, Feminina e Mista)
+. Cadastrar;
+. Editar;
+. Excluir turmas. 
+. Incluir limite de alunos por turma.
+- Professores e admins: 
+. Cadastrar, 
+. editar 
+. excluir admins 
+. permitir ou recusar pedido de admin.
+- Ofertas: Opção de edição dos dados de chave pix para oferta
+- Quem somos: Poder editar a informação do “Quem somos”.
+
+3. Design (Interface Intuitiva e Moderna)
+Cores:
+Tons sóbrios (verde, preto, branco, cinza) com detalhes em vermelho (inspirado no Jiu-Jitsu).
+Verde suave (#4CAF50) como cor primária
+Verde claro (#8BC34A) como secundária
+Amarelo alegre (#FFC107) como destaque
+Cores de texto e fundo mais suaves
+
+
+Layout Modernizado:
+Cantos arredondados em todos os elementos
+Sombras sutis para profundidade
+Transições suaves em interações
+Efeito hover em botões e cards
+Componentes Visuais:
+Cards no dashboard com efeito de elevação
+Gráfico com gradiente verde
+Tabelas com estilo mais limpo
+Filtros com melhor organização
+Quero que utilize este servidor.  o projeto funcionará nele e no Visual Studio code
+Então faça tudo para que ao exportar o aplicativo web ele funcione normalmente.
+Informações para o servidor. tenho o acesso ao Supabase abaixo os dados para conexão:
+
+
+postgresql://postgres:[YOUR-PASSWORD]@db.eliyybfchbdpmksjbtvl.supabase.co:5432/postgres
+
+Password: 25@Jiuadm
+
+
+
+
+
+
